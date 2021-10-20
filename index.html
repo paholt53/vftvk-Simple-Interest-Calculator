@@ -3,27 +3,28 @@
   <!--   <var>minval</var> -->
   <!--  <var>maxval</var> -->
   <!--  <var>default_val</var> -->
-  <!--  minval = 1; -->
-  <!--  maxval = 20; -->
-  <!--  default_val = 10.25; -->
+    minval = 1; 
+    maxval = 20; 
+    default_val = 10.25;
    <!--  not sure about minval, etc -->
   
 
 <html>
    
     <head>
-        <Title> Simple Interest Calculator 2 </title>
+        <Title> Simple Interest Calculator</title>
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="maindiv">
-        <h1>Simple Interest Calculator 2 </h1>
+        <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal">  <br/>
-        Interest Rate <input type="number"  id="rate">  <br/>
+        Interest Rate <input type="range"  id="rate"> 
+          min="minval" max="maxval" value="default_val"> <br/>
         No. of Years <input type="number"  id="years">  <br/>
-        Interest Amt: <span id="result"></span><br>
+        Interest <span id="result"></span><br>
 
         <button onclick="compute()">Compute Interest</button>
       </div>
