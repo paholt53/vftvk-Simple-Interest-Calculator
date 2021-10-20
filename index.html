@@ -27,10 +27,29 @@
             10.25%
           </span>  
         <br/>
-        No. of Years <input type="number"  id="years">  <br/>
+        No. of Years <input type="number" 
+          select id="years">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          </select>
+          
+          <br/>
         Interest <span id="result"></span><br>
 
-        <button onclick="compute()">Compute Interest</button>
+        <button onclick="compute()">Compute Interest
+          <span id="result"></span>
+      </button>
+      <footer>
+          &#169; This Calculator belongs to --Phyllis Holt--
+      </footer>  
       </div>
     </body>
 </html>
