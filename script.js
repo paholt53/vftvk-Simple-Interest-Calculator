@@ -3,7 +3,7 @@ function compute()
     p = document.getElementById("principal").value;
     line1 = "If you deposit ";
     line2 = ",\<br\> at an interest rate of ";
-    lime3 = "%\<br\> You will receive an amount of ";
+    line3 = "%\<br\> You will receive an amount of ";
     line4 = ",\<br\> in the year ";
     endline = "\<br\>";
     principal = document.getElementById("principal").value;
