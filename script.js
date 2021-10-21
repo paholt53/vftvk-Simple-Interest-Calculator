@@ -1,6 +1,7 @@
 function compute(principal,rate,years)
 {
     alert("made it to compute()");
+    alert("principal" principal);
     
     p = document.getElementById("principal").value;
     line1 = "If you deposit ";
