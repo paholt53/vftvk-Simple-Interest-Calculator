@@ -17,7 +17,8 @@
           
      <!-- This is message 1  <br/> -->
           
-        Amount        <input type="number"  id="principal">  <br/>
+        Amount        <input type="number"  id="principal"
+                       min="1"      >  <br/>
         Interest Rate <input type="range"  id="rate" 
             min=".25" max="10.25" step=".25" default="3.00"
             onchange="updateRate(rate)">
@@ -50,7 +51,7 @@
        <!--  This message is after the onclick <br/> -->
       
           <span id="result"></span>
-          result
+          name="result"
           
          
       <footer>
