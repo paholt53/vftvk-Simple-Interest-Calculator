@@ -14,9 +14,7 @@
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
-    minval = .25
-    maxval = 10.00
-    stepval = .25
+    
     <body>
      
         <div class="maindiv">
@@ -24,9 +22,9 @@
 
         Amount <input type="number"  id="principal">  <br/>
         Interest Rate <input type="range"  id="rate" 
-          min="minval" max="maxval" step="stepval" value="default_val"
-          onchange="updateRate(rate)">
-          <span id="rate_val">
+          min=".25" max="10.25" step=".25" default="3.00"
+           onchange="updateRate(rate)">
+          <span id="rate">
             10.25%
           </span>  
         <br/>
