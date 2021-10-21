@@ -1,7 +1,7 @@
-function compute(principal,rate,years)
+function compute()
 {
     alert("made it to compute()");
-    alert("principal");
+    
     
     p = document.getElementById("principal").value;
     line1 = "If you deposit ";
@@ -15,7 +15,8 @@ function compute(principal,rate,years)
     interest = principal * years * rate / 100;
     year =  new Date().getFullYear() + parseInt(years);
     
-    alert("interest="interest);
+    alert("interest=" + interest);
+    alert("year=" + year);
         
     line1+principal+line2+rate+line3+interest+line4+year+endline;
      <!-- document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline; -->
