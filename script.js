@@ -1,4 +1,4 @@
-function compute()
+function compute(principal,rate,years)
 {
     alert("made it to compute()");
     
