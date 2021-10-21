@@ -1,6 +1,6 @@
 function compute()
 {
-    alert("made it to compute()");
+    // alert("made it to compute()");
     
     
     p = document.getElementById("principal").value;
@@ -15,19 +15,19 @@ function compute()
     interest = principal * years * rate / 100;
     year =  new Date().getFullYear() + parseInt(years);
     
-    alert("interest=" + interest);
-    alert("year=" + year);
-    alert("interest rate=" + rate);
+    // alert("interest=" + interest);
+    // alert("year=" + year);
+    // alert("interest rate=" + rate);
         
     result = line1 + principal + line2 + rate + line3 + interest + line4 + year + endline;
     
-    alert("line1=" + line1);
-    alert("line2=" + line2);
+    // alert("line1=" + line1);
+    // alert("line2=" + line2);
     
-    alert("result=" + result);
+    // alert("result=" + result);
     document.getElementById("result").innerHTML=line1 + principal + line2 + rate + line3 + interest + line4 + year + endline; 
     
-    alert("made it to here"); 
+    // alert("made it to here"); 
     return result;
 }    
 function updateRate()
