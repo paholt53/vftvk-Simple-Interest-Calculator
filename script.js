@@ -1,5 +1,7 @@
 function compute()
 {
+    alert("made it to compute());
+    
     p = document.getElementById("principal").value;
     line1 = "If you deposit ";
     line2 = ",\<br\> at an interest rate of ";
