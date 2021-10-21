@@ -18,12 +18,13 @@ function compute()
      <!-- document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline; -->
     
     alert("made it to here"); 
-    
+    return;
 }    
 function updateRate()
 {
     rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
+    return;
             
     
 }
