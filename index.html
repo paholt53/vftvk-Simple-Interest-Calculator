@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <!-- -->  
-  <!--   <var>minval</var> -->
-  <!--  <var>maxval</var> -->
-  <!--  <var>default_val</var> -->
-    
-   <!--  not sure about minval, etc -->
-  
+ 
 
 <html>
    
@@ -19,7 +14,9 @@
         
         <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
+          
       This is message 1  <br/>
+          
         Amount        <input type="number"  id="principal">  <br/>
         Interest Rate <input type="range"  id="rate" 
             min=".25" max="10.25" step=".25" default="3.00"
@@ -48,12 +45,13 @@
       
       This is an alert message! <br/>
       
-        <button onclick="compute()">Compute Interest
-         
+        <button onclick="compute()">Compute Interest </button>
+      
+         This message is after the onclick <br/>
+      
           <span id="rate"></span>
           
-      </button>
-    
+         
       <footer>
           &#169; This Calculator belongs to --Phyllis Holt--
       </footer>  
