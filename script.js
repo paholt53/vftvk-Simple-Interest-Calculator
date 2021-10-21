@@ -19,7 +19,9 @@ function compute()
     alert("year=" + year);
     alert("interest rate=" + rate);
         
-    line1+principal+line2+rate+line3+interest+line4+year+endline;
+    result=line1+principal+line2+rate+line3+interest+line4+year+endline;
+    
+    alert("result=" + result);
     // document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline; //
     
     alert("made it to here"); 
