@@ -20,16 +20,16 @@
         <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
-        Amount <input type="number"  id="principal">  <br/>
+        Amount        <input type="number"  id="principal">  <br/>
         Interest Rate <input type="range"  id="rate" 
           min=".25" max="10.25" step=".25" default="3.00"
            onchange="updateRate(rate)">
-          <span id="rate">
-            
+          <span id="rate_val">
+            rate_val
           </span> % 
         <br/>
         <label for="years"></label>  
-        No. of Years <input type="number" 
+        No. of Years  <input type="number" 
           select name="years" id="years" min="1" max="10" size="10" step"1" required>
         <!--  <option value="1">1</option>  -->
         <!-- <option value="2">2</option> -->
@@ -47,7 +47,7 @@
         Interest <span id="result"></span><br>
 
         <button onclick="compute()">Compute Interest
-          <span id="result"></span>
+          <span id="rate"></span>
       </button>
       <footer>
           &#169; This Calculator belongs to --Phyllis Holt--
