@@ -27,7 +27,7 @@ function compute()
     // document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline; //
     
     alert("made it to here"); 
-    return;
+    return result;
 }    
 function updateRate()
 {
