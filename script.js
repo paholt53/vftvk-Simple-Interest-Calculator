@@ -24,7 +24,7 @@ function compute()
     alert("line1=" + line1);
     
     alert("result=" + result);
-    // document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline; //
+    document.getElementById("result").innerHTML=line1 + principal + line2 + rate + line3 + interest + line4 + year + endline; 
     
     alert("made it to here"); 
     return result;
