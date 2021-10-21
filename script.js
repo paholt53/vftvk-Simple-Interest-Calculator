@@ -8,7 +8,7 @@ function compute()
     line2 = ",\<br\> at an interest rate of ";
     line3 = "%\<br\> You will receive an amount of ";
     line4 = ",\<br\> in the year ";
-    endline = "\<br\>";
+    endline = "\<br\> \<br\>";
     principal = document.getElementById("principal").value;
     rate = document.getElementById("rate").value;
     years = document.getElementById("years").value;
