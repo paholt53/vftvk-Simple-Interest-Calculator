@@ -12,9 +12,10 @@ function compute()
     interest = principal * years * rate / 100;
     year =  new Date().getFullYear() + parseInt(years);
         
+    line1+principal+line2+rate+line3+interest+line4+year+endline;
+     <!-- document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline; -->
     
-     document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline;
-     
+    alert("made it to here"); 
     
 }    
 function updateRate()
