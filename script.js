@@ -11,15 +11,11 @@ function compute()
     years = document.getElementById("years").value;
     interest = principal * years * rate / 100;
     year =  new Date().getFullYear() + parseInt(years);
-     minval = 1; 
-     maxval = 20; 
-     default_val = 10.25;
+        
     
-    If(number(years)) // if years is numeric
-    {  If (years > 1900 && years < 2500) 
-     {  document.getElementById("result").innerHTML=line1+principal+limne2+rate+line3+interest+line4+year+endline;
-     }
-    }
+     document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline;
+     
+    
 }    
 function updateRate()
 {
