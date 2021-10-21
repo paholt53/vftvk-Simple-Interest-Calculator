@@ -17,6 +17,7 @@ function compute()
     
     alert("interest=" + interest);
     alert("year=" + year);
+    alert("interest rate=" + rate;
         
     line1+principal+line2+rate+line3+interest+line4+year+endline;
     document.getElementById("result").innerHTML=line1+principal+line2+rate+line3+interest+line4+year+endline; 
