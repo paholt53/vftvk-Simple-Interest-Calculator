@@ -4,7 +4,7 @@ function compute()
     
     
     p = document.getElementById("principal").value;
-    line1 = "\<br\> If you deposit ";
+    line1 = " \<br\> \<br\> If you deposit ";
     line2 = ",\<br\> at an interest rate of ";
     line3 = "%\<br\> You will receive an amount of ";
     line4 = ",\<br\> in the year ";
@@ -22,6 +22,7 @@ function compute()
     result = line1 + principal + line2 + rate + line3 + interest + line4 + year + endline;
     
     alert("line1=" + line1);
+    alert("line2=" + line2);
     
     alert("result=" + result);
     document.getElementById("result").innerHTML=line1 + principal + line2 + rate + line3 + interest + line4 + year + endline; 
