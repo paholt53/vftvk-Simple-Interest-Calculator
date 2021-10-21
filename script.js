@@ -1,6 +1,6 @@
 function compute()
 {
-    alert("made it to compute());
+    alert("made it to compute()");
     
     p = document.getElementById("principal").value;
     line1 = "If you deposit ";
